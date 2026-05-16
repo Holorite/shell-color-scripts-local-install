@@ -6,6 +6,7 @@ install: clean
 	mkdir -p $${HOME}/.local/bin/shell-color-scripts/colorscripts
 	cp -rf colorscripts/* $${HOME}/.local/bin/shell-color-scripts/colorscripts
 	cp colorscript.sh $${HOME}/.local/bin/colorscript
+	mkdir -p $${HOME}/.local/share/zsh/completions
 	cp zsh_completion/_colorscript $${HOME}/.local/share/zsh/completions
 
 uninstall:
